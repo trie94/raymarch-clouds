@@ -1,7 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+/**
+ * This should be attached to the Camera object.
+ */
 public class CameraMove : MonoBehaviour
 {
     public Vector3 velocity;

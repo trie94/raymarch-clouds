@@ -1,6 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+/**
+ * Attach this script to the Camera.
+ * If your editor gets too laggy, comment out [ExecuteInEditMode].
+ */
 
 [ExecuteInEditMode]
 [RequireComponent(typeof(Camera))]
